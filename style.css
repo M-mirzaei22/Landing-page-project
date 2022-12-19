@@ -80,7 +80,7 @@ h1 {
     background-color: #3882F6;
     color: #E5E7EB;
     font-weight: 1000px;
-    padding: 7px 18px;
+    padding: 7px 23px;
     border-radius: 5px;
     border: 0;
 }
@@ -141,3 +141,65 @@ h2{
     align-self: flex-end;
     font-weight: 900;
 } 
+/*___________action section_________*/
+.call-to-action-section{
+    margin-block: 100px;
+    margin-inline:auto;
+    width: 970px;
+}
+
+.call-to-action-container{
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px; 
+    display: inline-block;
+    width: 100%;
+}
+
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #E5E7EB;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+
+.call-to-action-text{
+    color: #E5E7EB;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.call-to-action-button{
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-weight: 1200px;
+    padding: 7px 28px;
+    border-left: 20;
+    border-right: 20;
+    background-color: inherit;
+    color: #E5E7EB;
+}
+/*______________footer section_________________*/
+.footer-wrapper{
+    background-color: #1f2937;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}  
+
